@@ -1,0 +1,26 @@
+{
+  "ignition": { "version": "3.0.0" },
+  "storage": {
+    "files": [{
+      "path": "/etc/hostname",
+      "mode": 420,
+      "overwrite": true,
+      "contents": { "source": "data:,lappy" }
+    }]
+  }
+ "passwd": {
+    "users": [
+      {
+        "name": "systemUser",
+        "passwordHash": "$superSecretPasswordHash.",
+        "sshAuthorizedKeys": [
+          "ssh-rsa veryLongRSAPublicKey"
+        ]
+      },
+      {
+        "name": "jenkins",
+        "uid": 1000
+      }
+    ]
+  }
+}
