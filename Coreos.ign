@@ -12,7 +12,7 @@
     "users": [
       {
         "name": "systemUser",
-        "passwordHash": "$superSecretPasswordHash.",
+        "passwordHash": "81dc9bdb52d04dc20036dbd8313ed055",
         "sshAuthorizedKeys": [
           "ssh-rsa veryLongRSAPublicKey"
         ]
