@@ -1,0 +1,19 @@
+{
+  "Regions": {
+    "901": {
+      "RegionID": 901,
+      "RegionCode": "in-mumbai",
+      "RegionName": "Mumbai",
+      "Nodes": [
+        {
+          "Name": "901h",
+          "RegionID": 901,
+          "DERPPort": 8443,
+          "HostName": "derp.m4g.in",
+          "IPv4": "40.81.228.203",
+          "InsecureForTests": true
+        }
+      ]
+    }
+  }
+}
